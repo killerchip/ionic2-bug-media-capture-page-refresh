@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button (click)="_record()">Record Video</button>
+  <button (click)="_dummyAlert()">Dummy</button>
+
+  <video controls *ngIf="_video!==null" width="100%">
+            <source [src]="_video.fullPath" [type]="_video.type">
+            Your app does not support the video tag.
+    </video>
+</ion-content>
