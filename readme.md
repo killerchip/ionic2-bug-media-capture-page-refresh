@@ -23,3 +23,5 @@ When the video is captured, it should be displayed in HTML5 video.
 If you click the 'Dummy' button, an dummy alert is displayed. After you close the alert, the page is 'refreshed' and the video is displayed normally.
 
 
+Update: Can be solved/workaround by using a zone
+See https://forum.ionicframework.com/t/page-does-not-refresh-after-cordova-media-capture-plugin-records-video/59043
